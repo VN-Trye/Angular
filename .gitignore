@@ -1,5 +1,8 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+# Angular cache (QUAN TRỌNG)
+.angular/
+
 # Compiled output
 /dist
 /tmp
@@ -30,7 +33,6 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage
